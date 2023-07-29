@@ -1,0 +1,286 @@
+body{
+  overflow-y: scroll;
+  overflow-x:hidden;
+}
+.App {
+  /* text-align: center; */
+  background-color: #121212;
+  color : white;
+  min-width : 100vw;
+  min-height : 100vh;
+  display: flex;
+   align-items: center;
+  justify-content: center; 
+}
+.Nav{
+  width : 100vw;
+  position : fixed ;
+  top : 0px;
+ min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: space-between;
+  background-color: black;
+}
+.menu{
+  display: flex;
+  list-style-type: none;
+  color : white;
+  position: fixed;
+  top :0px;
+  right : 5px;
+  
+}
+.menu >li>a{
+  
+  text-decoration: none;
+  color : white;
+
+}
+.menu>li{
+  width : 10vw;
+}
+.logo{
+  position: absolute;
+  top : 15px;
+  left : 5px;
+  font-size: 2em;
+  font-family: 'Dancing Script',cursive;
+}
+.sign{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 15px;
+  background-color: black;
+ padding-left : 20px;
+ padding-right: 20px;;
+ 
+}
+ .form2{
+ 
+  display: flex;
+  flex-direction: column;
+  padding : 15px;
+
+}
+.form1{
+ 
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+}
+label{
+  text-align: left;
+ margin-bottom: 5px;
+}
+.head{
+  font-size: 2em;;
+}
+.line{
+  min-width: 80%;
+  height : 1px;
+  background-color: rgba(255, 255, 255, 0.59);
+  margin-top: 15px;
+  margin-bottom: 15px;;
+}
+.logo-i{
+  font-family: 'dancing script',cursive;
+}
+input{
+  padding : 5px;
+  background-color: #121212;
+  border: 1px rgba(255,255,255,0.59) solid;
+  border-radius: 3px;
+  margin-bottom: 5px;
+  color: white;
+}
+button{
+  margin-top: 5px;
+background: white;
+color : black ;
+border: none;
+cursor: pointer;
+
+}
+.link-btn{
+  background: none;
+  color : white;
+  box-shadow: none;
+  
+  box-sizing: border-box;
+}
+a{
+  color : white;
+  text-decoration: none;
+  margin-right : 5px;
+}
+.foot>a {
+  color: white;
+  text-decoration: underline;
+}
+.home{
+  text-align: left;
+  width : 100%;
+  margin-left : 50px;
+}
+.blog-preview{
+  border : white solid 1px;
+  margin: 5px;
+  padding-left: 10px;
+  width : 70vw;
+  padding-bottom: 10px;
+  border-radius: 2px;
+}
+.blog-preview:hover{
+  box-shadow:  1px  3px 5px white;
+}
+.home>button{
+  margin-bottom: 3px;
+  
+}
+.create {
+  min-width : 400px;
+  margin : 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size : 20px;
+  margin-bottom: 40px;
+}
+.create input ,.create textarea,.create select {
+  width : 100%;
+  padding : 6px 10px;
+  margin : 10px 0 px ;
+  border : 1px solid white;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  border : 0 ;
+  padding : 8px ;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.blog-details {
+  display: block;
+  position: static;
+}
+.blog-body{
+  width : 80vw;
+  font-size: 1.5em;
+  font-family: 'Dancing Script', cursive;
+font-family: 'Noto Serif Vithkuqi', serif;
+margin-bottom : 15px;
+justify-content: center;
+
+}
+.blog-title{
+  font-family: 'Dai Banna SIL', serif;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.dlt{
+  padding : 3px;
+  background-color: white;
+  border-radius: 3px;
+}
+.user{
+  font-family: 'Noto Serif Vithkuqi', serif;
+}
+.new {
+  width: 80vw;
+text-align: left;
+
+}
+.new {
+  width: 60%;
+  position: fixed;
+  top : 80px;
+  height: 8vh;
+  text-align: center;
+  
+  justify-content: center;
+  margin-top : 15px;
+}
+.new  textarea{
+  width : 70%;
+  text-align: left;
+  height : 8vh ;
+  font-family: 'Noto Serif Vithkuqi', serif;
+  font-size: 1.5em;
+  padding : 5px;
+  border-radius: 5px;;
+}
+.go{
+  background-color: black;
+  padding : 3px;
+  border-radius : 3px ;
+  color : white;
+  cursor: pointer;
+  width : 20vw;
+  text-align: center;
+  border: white solid 1px;
+ 
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+}
+.buttons button{
+  background: black;
+  color : white;
+  
+}
+.post-body{
+  width : 70%;
+  text-align: left;
+  background-color: black;
+}
+.list{
+  text-align: center;
+}
+.use{
+  background-color: black;
+  
+  font-size:1.5em;
+  width:70%;
+  text-align: left
+  ;
+  justify-content: center;
+}
+.post{
+  width: 70%;
+ margin-top:15px;
+ text-align: center;
+ padding : 10px;
+}
+.list{
+  text-align: center;
+  height : 80vh;
+  overflow-y: scroll;
+  margin-top: 30vh;
+}
+.menu a{
+  margin-left:15px;
+}
+.btn{
+  background-color: red;
+}
+.like{
+  background: #121212;
+  color: white;
+}
+.like :hover {
+background: black;
+}
+
